@@ -1,0 +1,1 @@
+cmd_/opt/kernel_module/module_proc_hello/hello.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /opt/kernel_module/module_proc_hello/hello.ko /opt/kernel_module/module_proc_hello/hello.o /opt/kernel_module/module_proc_hello/hello.mod.o

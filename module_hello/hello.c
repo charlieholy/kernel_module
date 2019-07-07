@@ -2,7 +2,7 @@
 #include <linux/module.h>
 
 MODULE_LICENSE("Dual BSD/GPL");
-MODULE_AUTHOR("Hcamal");
+MODULE_AUTHOR("Charlie");
 
 int hello_init(void)
 {
